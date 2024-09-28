@@ -21,7 +21,7 @@ Downloading the dataset
 ## Data reading
 
 ```{r reading in data, echo=FALSE, results='hide'}
-hogwarts <- read_csv("C:/Users/pc/Documents/BioStat COURSE/Homework/Data visualisation 280924/Data/hogwarts_2024.csv")
+hogwarts <- read_csv("data/raw/hogwarts_2024.csv")
 hogwarts |> head()
 hogwarts |> glimpse()
 ```
